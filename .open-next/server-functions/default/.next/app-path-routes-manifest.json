@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/callback/google/route": "/api/auth/callback/google",
+  "/api/auth/login/google/route": "/api/auth/login/google",
+  "/api/auth/logout/route": "/api/auth/logout",
+  "/api/auth/session/route": "/api/auth/session",
+  "/apps/page": "/apps",
+  "/billing/page": "/billing",
+  "/favicon.ico/route": "/favicon.ico",
+  "/opengraph-image/route": "/opengraph-image",
+  "/page": "/",
+  "/privacy/page": "/privacy",
+  "/profile/page": "/profile",
+  "/robots.txt/route": "/robots.txt",
+  "/security/page": "/security",
+  "/sessions/page": "/sessions",
+  "/settings/page": "/settings",
+  "/signin/page": "/signin",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

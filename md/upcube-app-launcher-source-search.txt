@@ -1,0 +1,261 @@
+Upcube app launcher source search
+Generated: Fri May 22 14:43:50 EDT 2026
+Repo: /Users/sha/Documents/AI/upcube
+
+=== GREP RESULTS ===
+upcube/open-next.config.ts:2:import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+upcube/open-next.config.ts:5:export default defineCloudflareConfig({
+upcube/app/learn/page.tsx:7:  title: "Upcube Learn | Education, Books, and Quantum",
+upcube/app/products/robotics/page.tsx:11:export default function RoboticsProductPageRoute() {
+upcube/app/products/books/page.tsx:11:export default function BooksProductPageRoute() {
+upcube/app/products/news/page.tsx:11:export default function NewsProductPageRoute() {
+upcube/app/products/earth/page.tsx:11:export default function EarthProductPageRoute() {
+upcube/app/products/cloud/page.tsx:11:export default function CloudProductPageRoute() {
+upcube/app/products/jobs/page.tsx:11:export default function JobsProductPageRoute() {
+upcube/app/products/page.tsx:37:      "Cloud infrastructure, compute, robotics, operating systems, and voice platform for builders and platform teams.",
+upcube/app/products/page.tsx:60:      "Earth, Games, Commerce, and Jobs — discovery surfaces across the Upcube ecosystem.",
+upcube/app/products/games/page.tsx:11:export default function GamesProductPageRoute() {
+upcube/app/products/quantum/page.tsx:11:export default function QuantumProductPageRoute() {
+upcube/app/status/page.tsx:24:          "View the current public status for Upcube products including AI, Books, Earth, Games, Jobs, Cloud, Ventari, Education, Voice, and more.",
+upcube/app/news/page.tsx:4:import { NewsIndexPage } from "components/upcube-news/news-index-page";
+upcube/app/news/page.tsx:5:import { createNewsIndexMetadata } from "lib/upcube-seo/metadata";
+upcube/app/news/page.tsx:7:export const metadata: Metadata = createNewsIndexMetadata();
+upcube/app/news/page.tsx:9:export default function NewsRoutePage() {
+upcube/app/news/page.tsx:10:  return <NewsIndexPage />;
+upcube/app/news/[slug]/page.tsx:5:import { NewsArticlePage } from "components/upcube-news/news-article-page";
+upcube/app/news/[slug]/page.tsx:6:import { createNewsArticleMetadata } from "lib/upcube-seo/metadata";
+upcube/app/news/[slug]/page.tsx:8:  getUpcubeNewsArticleBySlug,
+upcube/app/news/[slug]/page.tsx:9:  upcubeNewsArticles,
+upcube/app/news/[slug]/page.tsx:13:  return upcubeNewsArticles.map((article) => ({ slug: article.slug }));
+upcube/app/news/[slug]/page.tsx:20:  const article = getUpcubeNewsArticleBySlug(params.slug);
+upcube/app/news/[slug]/page.tsx:24:      title: "News article not found | UpcubeAI",
+upcube/app/news/[slug]/page.tsx:28:  return createNewsArticleMetadata(article);
+upcube/app/news/[slug]/page.tsx:31:export default async function NewsArticleRoute(props: {
+upcube/app/news/[slug]/page.tsx:35:  const article = getUpcubeNewsArticleBySlug(params.slug);
+upcube/app/news/[slug]/page.tsx:41:  return <NewsArticlePage article={article} />;
+upcube/app/sitemap.ts:1:import { upcubeNewsArticles } from "lib/upcube-news/news";
+upcube/app/sitemap.ts:96:  const newsRoutes = upcubeNewsArticles.map((article) =>
+upcube/app/build/page.tsx:7:  title: "Upcube Build | Cloud, Compute, and Platform Tools",
+upcube/app/page.tsx:18:    "Upcube | AI, Cloud, Compute, Robotics, Education & Future Technology Products",
+upcube/app/apps/page.tsx:7:  description: "Portal app launcher for currently linked Upcube destinations.",
+upcube/app/not-found.tsx:29:                  News
+upcube/app/not-found.tsx:32:                  Try Ethen
+upcube/app/developers/page.tsx:23:        { label: "Cloud", href: UPCUBE_CLOUD_URL, external: true },
+upcube/tests/route-pages.test.ts:226:    ["/research/earth-ai-geospatial-intelligence", "Upcube Earth AI"],
+upcube/tests/sitemap-data.test.ts:6:import { upcubeNewsArticles } from "lib/upcube-news/news";
+upcube/tests/sitemap-data.test.ts:57:    expect(upcubeNewsArticles.length).toBeGreaterThan(0);
+upcube/tests/sitemap-data.test.ts:58:    for (const article of upcubeNewsArticles) {
+upcube/tests/sitemap-data.test.ts:91:    for (const article of upcubeNewsArticles) {
+upcube/tests/homepage-data.test.ts:46:    expect(upcubeCompanyIdentity.pillars).toContain("Cloud & Infrastructure");
+upcube/tests/homepage-data.test.ts:50:describe("Ethen CTA", () => {
+upcube/tests/homepage-data.test.ts:51:  it("HOME_CHAT_CTA_HREF points to Ethen", () => {
+upcube/tests/homepage-data.test.ts:55:  it("Ethen CTA URL is a valid HTTPS link", () => {
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:80:Ethen for AI workspace intelligence.  
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:83:Books for calmer knowledge discovery.  
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:84:Earth for spatial exploration.  
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:87:Cloud and VM Compute for systems and infrastructure.  
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:88:Voice, OS, and Mobile OS for future computing directions.
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:150:For products like Books, Education, Ventari, and future content workflows, lawful access and responsible use should be part of the product story from the beginning.
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:180:Upcube Education, Cloud, VM Compute, Ethen, and future developer surfaces can help support that larger ecosystem over time.
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:236:### UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:248:### Upcube Books
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:252:### Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:256:### Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:264:### Upcube Cloud and VM Compute
+upcube/content/upcube-page-imports-flat/upcubeai-ai-principles-page.md:268:### Upcube OS and Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-security-and-privacy-page.md:26:Cloud and compute resources.  
+upcube/content/upcube-page-imports-flat/upcubeai-security-and-privacy-page.md:60:Ethen and UpcubeAI may involve prompts, sources, files, artifacts, tool outputs, project context, and user instructions.
+upcube/content/upcube-page-imports-flat/upcubeai-security-and-privacy-page.md:78:## Cloud and compute security
+upcube/content/upcube-page-imports-flat/upcubeai-security-and-privacy-page.md:80:Upcube Cloud and Compute require stronger infrastructure security as they mature.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:9:It can help Ethen understand uploaded files, screenshots, diagrams, documents, and visual references. It can help Ventari understand product images and catalog quality. It can help Upcube Books work with covers, scans, previews, and metadata. It can help Upcube Earth reason over terrain, imagery, overlays, and spatial visuals. It can help Upcube Games understand screenshots, art, trailers, and visual discovery. It can help Upcube Voice understand speech. It can help future OS and Mobile OS experiences make visual, audio, and document context easier to work with.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:116:Ethen should help users turn messy documents into usable work without pretending extraction is perfect.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:233:Upcube Earth should help users understand what they are seeing, not just navigate it.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:241:Games, videos, sound, music, and media experiences all involve perception.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:243:For Upcube Games and future entertainment surfaces, perception can help classify media, summarize trailers, detect genres, organize assets, and support recommendations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:281:Ethen should help users turn visual product references into clear, buildable specs.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:291:Ethen support for images, screenshots, files, diagrams, PDFs, videos, tables, code, and visual references.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:293:### Commerce image intelligence
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:299:Map imagery, terrain, overlays, land context, visual spatial patterns, and shareable map summaries for Upcube Earth.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:303:OCR, cover understanding, preview extraction, scanned text, reading paths, and document summaries for Upcube Books and Ethen.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:307:Screenshots, trailers, art style, platform assets, genre signals, and recommendation features for Upcube Games.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:343:How Ethen can help describe interfaces, compare references, extract UI patterns, and create implementation-ready design notes.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:389:## Spatial perception for Earth AI
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:393:How Upcube Earth AI can combine terrain, imagery, layers, and visual geospatial context into clearer spatial explanations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:445:## Spatial Visual Understanding for 3D Earth Interfaces
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:469:## UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:473:Ethen can use perception to understand screenshots, diagrams, documents, product references, code images, tables, forms, and visual research material.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:479:### Commerce image understanding.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:485:## Upcube Books
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:489:Books can use perception to understand covers, scanned previews, public-domain pages, OCR output, and reading-path material.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:493:## Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:497:Earth can use perception to help explain terrain, imagery, overlays, city form, roads, boundaries, and visible map context.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:501:## Upcube Games
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:505:Games can use perception to analyze screenshots, trailers, art style, gameplay visuals, genre signals, and recommendations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:509:## Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:513:Jobs can use perception for resumes, PDFs, role documents, company materials, and job-description extraction where appropriate.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:533:## Upcube OS and Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:569:Commerce images, game media, book covers, content previews, and visual recommendations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:639:Connect map imagery, terrain, overlays, and spatial context with Upcube Earth AI explanations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:693:Commerce discovery with product images, search, PDPs, recommendations, and catalog scale.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-08-machine-perception.md:696:### Upcube Earth AI
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:9:For UpcubeAI, networking is a core research direction behind Upcube Cloud, VM Compute, Ethen, Voice, Earth, Ventari, Jobs, Education, and future OS products.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:22:**Open Upcube Cloud**
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:25:Cloud paths that stay reliable.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:42:Jobs and games load changing metadata.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:43:Cloud systems schedule workloads.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:61:## 1. Cloud virtual networking
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:69:Upcube Cloud and VM Compute create a natural direction for this work.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:82:Cloud networking should feel powerful without forcing users to become network specialists.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:142:A user opening Earth, streaming voice, loading product images, searching books, or using Ethen should not feel the distance between themselves and the system.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:286:### Cloud virtual networking
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:288:Private networks, public access, firewalls, routing, DNS, load balancing, and service discovery for Upcube Cloud.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:336:## Cloud virtual networking
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:406:## Upcube Networking: Cloud and AI Traffic Foundations for Product Ecosystems
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:457:## Upcube Cloud
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:461:Cloud requires networking for APIs, projects, compute resources, storage paths, service discovery, access controls, and operational dashboards.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:473:## UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:477:Ethen depends on network paths for model calls, retrieval, tools, file handling, streaming responses, artifact storage, and integrations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:489:## Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:493:Earth depends on reliable delivery of maps, terrain, imagery, overlays, search results, and shareable views.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:499:### Commerce at catalog scale.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:505:## Upcube Books, Games, and Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:509:Books, Games, and Jobs depend on fast metadata retrieval, external provider calls, search results, saved items, and page delivery.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:513:## Upcube OS and Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:527:### Cloud networking
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:603:Map network needs across UpcubeAI, Cloud, VM Compute, Earth, Voice, Ventari, Books, Jobs, Games, Education, OS, and Mobile OS.
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:654:### Upcube Cloud
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:656:Cloud infrastructure and developer workflows for the Upcube ecosystem.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-11-networking.md:657:**Explore Cloud**
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:116:A user should be able to bring health-related material into Ethen and turn it into a clearer, reviewable, source-aware output.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:150:Upcube Earth AI and Upcube Health AI can eventually work together to support public-health-adjacent research workflows when appropriate data and permissions exist.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:274:Integration between Upcube Earth AI and health-related public datasets for high-level research into access, resilience, and local vulnerability.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:328:How Upcube Earth AI and Health AI can support high-level public-health research workflows using public or permitted data.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:384:A future publication direction exploring how Upcube Earth AI can support place-based analysis of access, infrastructure, and public health context.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:428:Future workflows may help teams summarize public data, prepare briefings, and understand place-based context through Upcube Earth AI.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:452:### UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:460:### Upcube Earth AI
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:464:### Upcube Cloud
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:472:### Upcube Books
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:528:Explore integration with Upcube Earth AI for public-health-adjacent spatial research using public or permitted datasets.
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:546:Use Ethen for research, source-aware summaries, artifacts, and structured health knowledge workflows.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-02-health-ai.md:554:### Upcube Earth AI
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:11:It affects every part of the ecosystem: Ethen, UpcubeAI, Cloud, VM Compute, Ventari, Earth, Books, Games, Jobs, Education, Voice, OS, and Mobile OS.
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:333:### UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:335:Ethen can support implementation prompts, code review, artifact generation, repo summaries, and validation reporting.
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:337:### Upcube Cloud and VM Compute
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:339:Cloud products need APIs, infrastructure code, deployment workflows, observability, and reliability engineering.
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:341:### Ventari, Books, Jobs, Games, and Earth
+upcube/content/upcube-page-imports-flat/upcubeai-research-14-software-engineering.md:349:### Voice, OS, and Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:11:It connects Ethen, UpcubeAI, Voice, Cloud, VM Compute, Ventari, Jobs, Books, Earth, Games, Education, OS, and Mobile OS through one core principle:
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:144:Upcube Cloud, VM Compute, Ethen, and future OS products require strong information-security foundations.
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:165:Cloud and AI systems depend on networks, APIs, queues, storage, compute, and providers.
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:219:Protect Upcube Cloud and VM Compute from overload, scraping, credential abuse, and prohibited workloads.
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:245:How Ethen can protect tool use, files, sources, artifacts, and approvals from abuse and misuse.
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:263:How Jobs, Ventari, Games, Books, and recommendations can defend against spam, fraud, and manipulation.
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:267:### Network security for Upcube Cloud
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:315:### Ethen and UpcubeAI
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:319:### Upcube Cloud and VM Compute
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:331:### Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:335:### Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-research-13-anti-abuse-security-privacy.md:339:### Upcube OS and Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:26:Ethen  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:27:Upcube Books  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:28:Upcube Earth  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:29:Upcube Games  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:30:Upcube Jobs  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:31:Upcube Cloud  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:37:Upcube Mobile OS previews  
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:246:### UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:250:### Upcube Books
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:254:### Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:258:### Upcube Games
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:262:### Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:268:Commerce discovery may include product data, prices, images, descriptions, reviews, availability, recommendations, and external merchants. Product information may change and should be verified before purchase.
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:270:### Upcube Cloud and VM Compute
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:272:Cloud, compute, infrastructure, networking, storage, and virtualization features may be subject to technical limits, acceptable use requirements, security rules, and product-specific service terms.
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:282:### Upcube OS and Upcube Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-terms-of-use-page.md:478:The final product-specific terms for Cloud, VM Compute, Education, Voice, Jobs, Books, Earth, Games, and Ventari.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:13:It connects Ethen, Upcube Books, Upcube Earth, Upcube Games, Upcube Jobs, Ventari, Upcube Education, Upcube Cloud, and future operating-system experiences through one core idea:
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:89:Books should rank by relevance, title match, author, preview availability, subject, and reading intent.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:91:Jobs should rank by role fit, freshness, location, skill match, company context, and user intent.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:92:Games should rank by title match, platform, genre, release timing, ratings, and related interest.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:93:Earth should rank places by geographic intent, popularity, specificity, nearby context, and layer relevance.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:94:Ethen should rank sources and artifacts by relevance to the current task.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:149:Ethen’s research direction depends on this. A user may ask a question, retrieve sources, generate an answer, create an artifact, and continue the workflow. If the sources disappear, the answer becomes harder to trust.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:176:UpcubeAI can apply conversational search across Ethen, Books, Jobs, Games, Ventari, Earth, and Education.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:201:Books use covers and text metadata.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:203:Games use screenshots, box art, trailers, genres, and platform metadata.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:204:Earth uses maps, terrain, imagery, overlays, and place names.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:206:Ethen may use uploaded files, images, code, tables, and artifacts.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:279:Search across prompts, artifacts, sources, tools, approvals, memories, and task state inside Ethen.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:283:Title, author, subject, preview, public-domain, saved-title, and reading-path retrieval for Upcube Books.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:285:### Commerce retrieval
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:291:Role search, skill matching, company context, saved jobs, and opportunity ranking for Upcube Jobs.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:299:Place search, terrain context, layer matching, city search, and spatial reasoning for Upcube Earth.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:331:How Books, Jobs, Games, Ventari, Earth, Education, and Ethen each require different ranking and retrieval strategies.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:341:How Ethen can use retrieval-aware workflows to keep sources, citations, artifacts, and answers connected.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:399:A future technical overview of retrieval across Ethen, Books, Jobs, Games, Ventari, Earth, Education, and Cloud.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:448:## UpcubeAI and Ethen
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:452:Ethen needs search across conversations, sources, artifacts, tools, approvals, and workspace state. The goal is to keep context attached to the work instead of making users restart.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:456:## Upcube Books
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:460:Books needs search across 50M titles, metadata, previews, public-domain lanes, saved books, and reading paths.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:464:## Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:468:Earth needs place search, terrain-aware retrieval, layer matching, city discovery, spatial context, and shareable views.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:472:## Upcube Games
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:476:Games needs retrieval across titles, platforms, studios, franchises, genres, release dates, recommendations, and related titles.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:480:## Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:484:Jobs needs role search, skill matching, company context, freshness, location filters, and opportunity ranking.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:490:### Commerce discovery at scale.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:504:## Upcube OS and Mobile OS
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:566:Jobs, education, commerce, and opportunity-related ranking require careful evaluation for uneven outcomes.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:588:Map search, ranking, and recommendation needs across UpcubeAI, Books, Earth, Games, Jobs, Ventari, Education, Cloud, and future OS surfaces.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:600:Connect Ethen answers, sources, citations, artifacts, and follow-up questions into a durable research workflow.
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:655:### Upcube Books
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:658:**Explore Books**
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:660:### Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:663:**Explore Jobs**
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:665:### Upcube Earth
+upcube/content/upcube-page-imports-flat/upcubeai-research-06-information-retrieval.md:668:**Explore Earth**
+upcube/content/upcube-page-imports-flat/upcubeai-our-charter-page.md:29:AI should connect to cloud and compute. Commerce should connect to discovery. Education should connect to the tools people use to build. Robotics operations should connect to the infrastructure layer.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:11:From Ethen’s AI workspace to Upcube Education, Cloud, Ventari, Jobs, Voice, Books, Earth, Games, VM Compute, and future computing surfaces, UpcubeAI is designed to help organizations use AI in practical, responsible, and connected ways.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:18:**Start with Ethen**
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:76:Ethen can help turn research, community notes, and operating needs into plans, briefs, checklists, and reusable documents.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:84:Upcube Books, Ethen, and future research surfaces can help teams explore relevant information and keep sources connected to the work.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:102:Ethen can help professionals move from question to research, from research to plan, from plan to artifact, and from artifact to execution.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:138:Teach users how to work across UpcubeAI, Ethen, Cloud, Ventari, Voice, Earth, Books, Jobs, and future computing products.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:160:The ecosystem gives startups a path from thinking to building: Ethen for work, Education for learning, Cloud for infrastructure direction, Ventari for commerce, Jobs for hiring discovery, and future systems products for compute and operations.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:176:Upcube Cloud and VM Compute point toward the systems layer for teams that need compute, storage, networking, and deployment workflows.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:192:Ethen helps teams draft, research, summarize, plan, create artifacts, and move work forward without scattering the task across disconnected tools.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:196:Ventari, Books, Earth, Games, Jobs, and other discovery products show how AI can make large catalogs and information spaces easier to navigate.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:204:Upcube Cloud and VM Compute provide the direction for compute, networking, storage, and developer workflows behind more advanced systems.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:214:## Start with Ethen.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:216:Ethen is the center of the UpcubeAI workspace experience.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:258:Teach users how to work across the Upcube ecosystem, from Ethen to Cloud, Ventari, Earth, Books, Jobs, Voice, and future computing surfaces.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:270:# Upcube Cloud and VM Compute
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:278:Upcube Cloud is the infrastructure destination for the Upcube ecosystem. VM Compute extends that direction into virtual machines, networking, storage, and operations.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:294:Cloud infrastructure should be explained clearly enough for both technical and business audiences to follow.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:302:Commerce teams face a simple but difficult problem: the more products they offer, the harder discovery becomes.
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:438:### Commerce and catalog work
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:488:### Upcube Cloud
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:490:Cloud infrastructure and developer workflows for the Upcube ecosystem.  
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:491:**Explore Cloud**
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:498:### Upcube Jobs
+upcube/content/upcube-page-imports-flat/upcubeai-for-organizations-page.md:501:**Explore Jobs**
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:11:Upcube Machine Intelligence is the research direction for how the Upcube ecosystem can use learning systems responsibly across its product family — from Ethen’s workspace intelligence to Ventari commerce discovery, Upcube Books, Upcube Earth, Games, Jobs, Education, Cloud, Voice, OS, and Mobile OS.
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:34:Understanding user intent in Ethen.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:43:Supporting adaptive interfaces in OS and Mobile OS.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:44:Predicting system load in Cloud and VM Compute.
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:78:Language is at the center of Ethen and UpcubeAI.
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:107:Jobs ranks opportunities.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:108:Books ranks titles.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:109:Games ranks releases and recommendations.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:110:Earth ranks places and layers.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:112:Ethen ranks sources, artifacts, and next actions.
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:169:Books uses covers, previews, and descriptions.  
+upcube/content/upcube-page-imports-flat/upcubeai-research-07-machine-intelligence.md:170:Games uses screenshots, trailers, genres, and release data.  
+
+=== LIKELY FILES ===
+upcube/app/styles/upcube-universal-header.css
+upcube/components/upcube-universal-header/upcube-universal-header.tsx
+upcube/components/upcube-universal-header/upcube-app-launcher.tsx
+upcube/components/upcube-portal/portal-header.tsx

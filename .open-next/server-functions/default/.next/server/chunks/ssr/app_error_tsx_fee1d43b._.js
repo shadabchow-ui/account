@@ -1,0 +1,3 @@
+module.exports=[78141,a=>{"use strict";var b=a.i(63895);function c({reset:a}){return(0,b.jsx)("div",{className:"signin-page",children:(0,b.jsxs)("div",{className:"signin-card",children:[(0,b.jsx)("h2",{style:{marginTop:0},children:"Account is temporarily unavailable"}),(0,b.jsx)("p",{style:{color:"var(--account-muted)"},children:"Please retry. If this continues, check auth and environment settings."}),(0,b.jsx)("button",{className:"signin-button",onClick:()=>a(),children:"Try again"})]})})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=app_error_tsx_fee1d43b._.js.map

@@ -1,0 +1,47 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/apps/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/billing/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/privacy/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/profile/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/security/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/sessions/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/settings/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ],
+    "[project]/app/signin/page": [
+      "static/media/Inter_VariableFont_opsz,wght-s.p.cf290510.ttf",
+      "static/media/Inter_Italic_VariableFont_opsz,wght-s.p.008c6788.ttf"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

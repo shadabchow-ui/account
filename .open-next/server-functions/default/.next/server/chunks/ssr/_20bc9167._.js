@@ -1,0 +1,17 @@
+module.exports=[50688,a=>{a.v({className:"inter_a6d2d9ed-module__5Captq__className",variable:"inter_a6d2d9ed-module__5Captq__variable"})},770,a=>{"use strict";var b=a.i(56520);let c=(0,b.registerClientReference)(function(){throw Error("Attempted to call AccountThemeProvider() from the server but AccountThemeProvider is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/account/account-theme-provider.tsx <module evaluation>","AccountThemeProvider"),d=(0,b.registerClientReference)(function(){throw Error("Attempted to call useAccountTheme() from the server but useAccountTheme is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/account/account-theme-provider.tsx <module evaluation>","useAccountTheme");a.s(["AccountThemeProvider",0,c,"useAccountTheme",0,d])},31593,a=>{"use strict";var b=a.i(56520);let c=(0,b.registerClientReference)(function(){throw Error("Attempted to call AccountThemeProvider() from the server but AccountThemeProvider is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/account/account-theme-provider.tsx","AccountThemeProvider"),d=(0,b.registerClientReference)(function(){throw Error("Attempted to call useAccountTheme() from the server but useAccountTheme is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/components/account/account-theme-provider.tsx","useAccountTheme");a.s(["AccountThemeProvider",0,c,"useAccountTheme",0,d])},54443,a=>{"use strict";a.i(770);var b=a.i(31593);a.n(b)},33290,a=>{"use strict";var b=a.i(63874),c=a.i(50688);let d={className:c.default.className,style:{fontFamily:"'inter', 'inter Fallback'"}};null!=c.default.variable&&(d.variable=c.default.variable);var e=a.i(54443);let f=process.env.NEXT_PUBLIC_ACCOUNT_URL||"https://account.upcube.ai",g=`
+(function() {
+  try {
+    var key = 'upcube-account-theme';
+    var saved = window.localStorage.getItem(key);
+    var theme = saved === 'light' || saved === 'dark'
+      ? saved
+      : (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+  } catch (error) {
+    document.documentElement.dataset.theme = 'dark';
+    document.documentElement.style.colorScheme = 'dark';
+  }
+})();`,h={metadataBase:new URL(f),title:{default:"Upcube Account",template:"%s | Upcube Account"},description:"Trusted identity and session center for the Upcube product family.",robots:{follow:!0,index:!0}};function i({children:a}){return(0,b.jsx)("html",{lang:"en",className:d.variable,"data-theme":"dark",suppressHydrationWarning:!0,children:(0,b.jsxs)("body",{children:[(0,b.jsx)("script",{dangerouslySetInnerHTML:{__html:g}}),(0,b.jsx)(e.AccountThemeProvider,{children:a})]})})}a.s(["default",()=>i,"metadata",0,h],33290)}];
+
+//# sourceMappingURL=_20bc9167._.js.map
